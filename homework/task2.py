@@ -14,7 +14,7 @@ if __name__ == '__main__':
     if result.figure_type == 'circle':
         print('Circle area', circle(result.r))
     elif result.figure_type == 'rectangle':
-        print('Rectangle area:', rectangle(result.d, result.h))
+        print('Rectangle area:', rectangle(result.a, result.b))
     elif result.figure_type == 'triangle':
         print('Triangle area:', triangle(result.d, result.h))
 
